@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('file:///C:/Users/MI%20Computer/Desktop/tree-736885__480.jpg');
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top:30%;
+    background-image: linear-gradient(#fff,pink,#fff);
+    padding:100px;
+    width:100%;
+}
+
+#rangeValue{
+    width:100%;
+    background:#00fdc6;
+    appearance: none;
+    outline:none;
+    height:30px;
+    box-shadow:3px 3px 16px #000;
+    margin-bottom:30px;
+    border-radius:40%;
+}
+
+
+#rangeValue::-webkit-slider-thumb{
+    width:25px;
+    height:30px;
+    appearance: none;
+    background:red;
+    cursor:pointer;
+    box-shadow: 2px 2px 6px #000;
+    border-radius:10px;
+}
+p{
+    text-align: center;
+    font-size:40px;
+    font-family:cursive;
+    color:#fff;
+    text-shadow:-1px 0 #000,0 1px #000,1px 0 #000,0 -1px #000;
+}
